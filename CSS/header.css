@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h3{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px; /* Altura inicial do header */
+    background-color: transparent; /* Cor de fundo inicial */
+    transition: background-color 0.3s, height 0.3s; /* Transição suave */
+  }
+  
+  h3.scrolled {
+    background-color: black; /* Cor de fundo quando rolado */
+    height: 37px; /* Nova altura quando rolado */
+  }
+  
